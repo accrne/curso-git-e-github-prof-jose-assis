@@ -1,0 +1,33 @@
+Git e Github (https://www.youtube.com/watch?v=FF1f4bKYhoo&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj&ab_channel=ProfessorJos%C3%A9deAssis)
+Git é um sistema de controle de versões, documenta e armazena as alterações feitas em um projeto. Criado por Linus Torvalds.
+O Github é uma rede social de projetos, possibilitando o compartilhamento, hospedagem, colaboração, etc. Outras alternativas
+são o Subversion e o Gitlab. Git pode ser utilizado para backup, controle de versões, trabalho em equipe e portifólio.
+
+O git cria um repositório local (.git) no repositório do projeto, que posteriormente pode ser enviado para um repositório remoto. "Git Bash Here" para abrir o local no Git Bash.
+"git init" inicia o git, criando o repositório oculto .git. Nessa pasta fica guardado o grafo de commits. O grafo é uma estrutura que armazena uma série de itens relacionados.
+Cada alteração ou grupo de alterações são salvas em um ponto do grafo. Todas as alterações são gravadas em um " container" para ser etiquetado e depois adicionado ao grafo.
+
+Projeto
+    |----> git add ----> container ---- git status ----> git commit ----> .git
+
+git log
+git log --oneline
+git push --------------------------------------------------- faz o envio do repositório local para o remoto
+git remote ------------------------------------------------- verificas se exite algum repositório remoto
+clear ------------------------------------------------------ limpa a tela do git bash
+git version ------------------------------------------------ mostra a versão utilizada do git
+git config --global user.name "" --------------------------- configura o nome do usuário padrão
+git config --global user.email "" -------------------------- configura o email do usuário padrão
+git config user.name --------------------------------------- mostra o nome do usuário padrão
+git config user.email -------------------------------------- mostra o email do usuário padrão
+pwd -------------------------------------------------------- exibe o diretório atual
+cd --------------------------------------------------------- para mudar o diretório
+ls --------------------------------------------------------- lista todos os arquivos e diretórios
+ls -a ------------------------------------------------------ exibe todos os arquivos e diretórios ocultos
+mkdir ------------------------------------------------------ cria um diretório
+touch ------------------------------------------------------ cria um arquivo
+git init --------------------------------------------------- cria um repositório .git
+git add ---------------------------------------------------- adiciona as mudanças realizadas em um conjunto
+git add * -------------------------------------------------- adiciona todas as mudanças realizadas em um conjunto
+git status ------------------------------------------------- mostra o que está separado e pronto para ser adicionado
+git commit ------------------------------------------------- adiciona o conjunto separado no grafo de commits

@@ -10,8 +10,8 @@ Cada alteração ou grupo de alterações são salvas em um ponto do grafo. Toda
 Projeto
     |----> git add ----> container ---- git status ----> git commit ----> .git
 
-git log
-git log --oneline
+git log ---------------------------------------------------- mostra o histórico do projeto completo
+git log --oneline ------------------------------------------ mostra o histórico do projeto em uma linha
 git push --------------------------------------------------- faz o envio do repositório local para o remoto
 git remote ------------------------------------------------- verificas se exite algum repositório remoto
 clear ------------------------------------------------------ limpa a tela do git bash
